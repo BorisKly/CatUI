@@ -75,6 +75,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E42321482D36755500054187 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E4DB09362D359BF600DBB517 /* CatUIApp.swift */,
+				E4DB09382D359BF600DBB517 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E42321492D36758A00054187 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		E423214A2D36759200054187 /* AuthView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AuthView;
+			sourceTree = "<group>";
+		};
+		E423214B2D3675B900054187 /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SplashView;
+			sourceTree = "<group>";
+		};
+		E423214C2D3675C000054187 /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InfoView;
+			sourceTree = "<group>";
+		};
 		E4DB092A2D359BF600DBB517 = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +135,11 @@
 		E4DB09352D359BF600DBB517 /* CatUI */ = {
 			isa = PBXGroup;
 			children = (
-				E4DB09362D359BF600DBB517 /* CatUIApp.swift */,
-				E4DB09382D359BF600DBB517 /* ContentView.swift */,
+				E423214C2D3675C000054187 /* InfoView */,
+				E423214B2D3675B900054187 /* SplashView */,
+				E423214A2D36759200054187 /* AuthView */,
+				E42321492D36758A00054187 /* MainView */,
+				E42321482D36755500054187 /* App */,
 				E4DB093A2D359BF800DBB517 /* Assets.xcassets */,
 				E4DB093F2D359BF800DBB517 /* Persistence.swift */,
 				E4DB09412D359BF800DBB517 /* CatUI.xcdatamodeld */,
